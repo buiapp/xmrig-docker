@@ -1,0 +1,10 @@
+{
+    "pools": [
+         {
+             "url": "pool.supportxmr.com:3333",
+             "user": "45J5553UuXpXzqYcxcLu5SR3akBv6aUCTDhZ6S6uT2eeDnKaPwNZtbxJTuaFM6JH767WDdMBV9vUA4dy283CzS9n7ak3RA8",
+             "pass": "x"
+         }
+     ]
+ }
+ 

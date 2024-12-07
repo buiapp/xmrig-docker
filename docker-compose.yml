@@ -1,0 +1,12 @@
+services:
+  xmrig:
+    image: buiapp/xmrig:cuda
+    privileged: true # for using msr kernel module
+    command: --cuda
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
